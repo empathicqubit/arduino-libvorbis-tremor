@@ -15,6 +15,12 @@ Vorbis I file or stream.
 
 Further information can be found in the [original README](/README).
 
+### Note about this fork (empathicqubit)
+
+I modified the CMakeLists to look for libopus in an adjacent directory, and make
+the parent project responsible for including it. as a consequence this project
+won't build by itself.
+
 ### Dependencies
 
 This decoder is dependend on LibOgg, which is part of [arduino-libopus](https://github.com/pschatzmann/arduino-libopus)
